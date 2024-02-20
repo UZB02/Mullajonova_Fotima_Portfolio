@@ -244,7 +244,6 @@ h6 {
   background: url("https://avatars.mds.yandex.net/i?id=7ca745e354e0ac90a67d55d8aad51d3f3766d425-12585680-images-thumbs&n=13");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 20px;
   object-fit: cover;
 }
 
@@ -295,7 +294,8 @@ h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    width: 100%;
+    font-size: 30px;
     line-height: 36px;
   }
 
@@ -303,6 +303,9 @@ h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  #hero p{
+    font-size: 15px;
   }
 }
 
