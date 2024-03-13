@@ -265,7 +265,8 @@ h6 {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
+  /* margin: 0 0 10px 0; */
+  text-align: center;
   font-size: 50px;
   font-weight: 700;
   line-height: 56px;
